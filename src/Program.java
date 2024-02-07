@@ -24,7 +24,7 @@ public class Program
 
         //_7_Inheritance inheritance = new _7_Inheritance();
 
-        _8_ImplementsInterface lizard = new _8_ImplementsInterface() {
+       _8_ImplementsInterface lizard = new _8_ImplementsInterface() {
             @Override
             public void myInterfaceMethod1_idle()
             {
