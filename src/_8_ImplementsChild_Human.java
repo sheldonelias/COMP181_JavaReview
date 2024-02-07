@@ -6,9 +6,10 @@ public class _8_ImplementsChild_Human implements _8_ImplementsInterface
 
     public _8_ImplementsChild_Human()
     {
+        myInterfaceMethod1_idle();;
+        myInterfaceMethod2_walk();
         myInterfaceMethod3_run();
     }
-
 
     public void myInterfaceMethod1_idle()
     {

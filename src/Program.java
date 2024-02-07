@@ -24,32 +24,14 @@ public class Program
 
         //_7_Inheritance inheritance = new _7_Inheritance();
 
-       _8_ImplementsInterface lizard = new _8_ImplementsInterface() {
-            @Override
-            public void myInterfaceMethod1_idle()
-            {
-                System.out.println("In my unique way, I am an IDLING LIZARD.");
-            }
-
-            @Override
-            public void myInterfaceMethod2_walk()
-            {
-                System.out.println("In my unique way, I am a WALKING LIZARD.");
-            }
-
-            @Override
-            public void myInterfaceMethod3_run()
-            {
-                System.out.println("In my unique way, I am a RUNNING LIZARD.");
-            }
-        };
-
-        lizard.myInterfaceMethod1_idle();
-
-
         //_8_ImplementsChild_Human human = new _8_ImplementsChild_Human();
 
         //_10_ArrayStringObjectMethods asom = new _10_ArrayStringObjectMethods();
+
+        //_13_Exceptions.arrayIndexOutOfBounds();
+
+        // must cast each argument to a byte type for this example to run
+        _13_Exceptions.productValueTooLarge((byte) 50, (byte) 5);
 
 
 
