@@ -17,6 +17,9 @@ public class _3_Precedence
         //Imposing parenthesis that duplicate precedence
         System.out.println((x + y) < (y - (z * (-2))) );
 
+
+        System.out.println(   ( (x + y) < (y - (z * (-2) ) ) ) );
+
         //Notice the difference if parenethesis is positioned differently
         System.out.println(x + y < (y - z) * -2);
 
