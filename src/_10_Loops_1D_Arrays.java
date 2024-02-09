@@ -1,4 +1,4 @@
-public class _9_Loops_1D_Arrays
+public class _10_Loops_1D_Arrays
 {
     //DECLARATION AND INITIALIZATION
     String[] strArr1 =
@@ -7,7 +7,7 @@ public class _9_Loops_1D_Arrays
     //DECLARATION ONLY
     static String[] strArr2 = new String[4];
 
-    _9_Loops_1D_Arrays() {
+    _10_Loops_1D_Arrays() {
         //INITIALIZATION ONLY OF EACH ELEMENT
         strArr2[0] = "Denise";
         strArr2[1] = "Jonas";
