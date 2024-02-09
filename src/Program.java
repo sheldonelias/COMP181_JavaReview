@@ -9,6 +9,7 @@ public class Program
     private String privateName;
 
 
+    //MAIN DIVIDES VARIABLES FROM METHODS
     public static void main(String[] args) throws IOException {
 
         //_1_Instantiation inst = new _1_Instantiation();
