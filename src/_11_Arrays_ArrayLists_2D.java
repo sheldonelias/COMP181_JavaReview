@@ -115,7 +115,6 @@ public class _11_Arrays_ArrayLists_2D
         //System.out.println( sortStrArrayList1dGen( handArrListGen ) ); //direclty prints arrayList
         //printStrArrayList1dGen(handArrListGen); //printing through method
 
-
         //TODO: DISCARD (REMOVE) ONE STRING CARD FROM ANY ARRAYLIST
         //handArrListGen.remove(0);
 

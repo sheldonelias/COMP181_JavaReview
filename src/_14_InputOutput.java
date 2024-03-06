@@ -1,11 +1,15 @@
 import java.util.Arrays;
+
+//Exceptions
 import java.util.InputMismatchException;
+import java.io.IOException;
+import java.io.FileNotFoundException;
+
+//IO Classes
 import java.util.Scanner;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
-import java.io.IOException;
-import java.io.FileNotFoundException;
 
 
 public class _14_InputOutput
@@ -80,6 +84,7 @@ public class _14_InputOutput
         {
             System.out.println("Invalid input. Try again." + exception);
             inputNonStringLiteral();
+            //do not put any more code after the recursion call!
         }
     }
 
@@ -103,8 +108,10 @@ public class _14_InputOutput
                     break;
                 }
                 ++lineCount;
+                //fileScan like all scanned files, must be spent once
                 System.out.println(lineCount + ". " + fileScan.nextLine());
             }
+
             //reassign stream and scan values to load scanned lines into array
             fis = new FileInputStream("fileInput/aLightInTheMoon.txt");
             fileScan = new Scanner(fis);
