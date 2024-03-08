@@ -50,7 +50,7 @@ public class _11A_ArrayLists_Generics
         }
 
         //TODO: Remove an Integer from numList using
-        findAndRemoveByIntWrapperValue(10);
+        findAndRemoveByIntWrapperValue(30);
         //Print contents again of integerArrayList
         for(int i : integerArrayList)
         {
@@ -85,6 +85,11 @@ public class _11A_ArrayLists_Generics
         // al.remove(Integer.valueOf(1));
 
         integerArrayList.remove(Integer.valueOf(integer));
+
+        //adds 10 to get the next value
+        integer = integer + 10;
+
+        integerArrayList.remove(integer);
 
     }
 
