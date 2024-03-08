@@ -34,7 +34,7 @@ public class Program
 
         //_10_ArrayStringObjectMethods asom = new _10_ArrayStringObjectMethods();
 
-        //_11A_ArrayLists_Generics
+        _11A_ArrayLists_Generics alg = new _11A_ArrayLists_Generics();
 
         //_13_Exceptions.arrayIndexOutOfBounds();
         // must cast each argument to a byte type for this example to run
