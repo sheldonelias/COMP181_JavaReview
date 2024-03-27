@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class Program
 {
@@ -36,7 +37,24 @@ public class Program
 
         //_11A_ArrayLists_Generics alg = new _11A_ArrayLists_Generics();
 
-        _12_Recursion.iterateWordReverse("Hello!");
+
+
+        ArrayList<Integer> integerArrayList = new ArrayList<Integer>();
+        integerArrayList.add(5);
+        integerArrayList.add(4);
+        integerArrayList.add(3);
+        integerArrayList.add(2);
+        integerArrayList.add(1);
+
+        _12_Recursion.sumMyList(integerArrayList, integerArrayList.size());
+
+        //_12_Recursion.iterateWordReverse("Hello!");
+
+        //_12_Recursion.recurseWordReverse("Hello!");
+
+        //_12_Recursion.sumIteratePos(5);
+
+        //_12_Recursion.sumRecursePos(5);
 
         //_13_Exceptions.arrayIndexOutOfBounds();
         // must cast each argument to a byte type for this example to run
