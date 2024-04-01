@@ -40,13 +40,13 @@ public class Program
 
 
         ArrayList<Integer> integerArrayList = new ArrayList<Integer>();
-        integerArrayList.add(5);
-        integerArrayList.add(4);
-        integerArrayList.add(3);
-        integerArrayList.add(2);
-        integerArrayList.add(1);
+        integerArrayList.add(5); //index 0
+        integerArrayList.add(4); //index 1
+        integerArrayList.add(3); //index 2
+        integerArrayList.add(2); //index 3
+        integerArrayList.add(1); //index 4
 
-        _12_Recursion.sumMyList(integerArrayList, integerArrayList.size());
+        //_12_Recursion.sumMyList(integerArrayList, integerArrayList.size());
 
         //_12_Recursion.iterateWordReverse("Hello!");
 
@@ -64,6 +64,8 @@ public class Program
         //_14_InputOutput.outputFile();
         //_14_InputOutput.inputStringKeyboard();
         //_14_InputOutput.inputNonStringLiteral();
+
+        _15_TestDriven.test();
     }
 
     //DECLARE METHODS
