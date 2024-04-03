@@ -136,7 +136,7 @@ public class _14_InputOutput
     {
         try {
             //create output stream object
-            FileOutputStream fileOut = new FileOutputStream("outputFile.txt");
+            FileOutputStream fileOut = new FileOutputStream("fileOutput/outputFile.txt");
             //assign stream data to printwriter object
             PrintWriter pw = new PrintWriter(fileOut);
             //write contents of each array item to external output file
