@@ -30,7 +30,7 @@ public class Program
 
         //_8_ImplementsChild_Human human = new _8_ImplementsChild_Human();
 
-        //_9_AbstractClassChild child = new _9_AbstractClassChild();
+        //_16_AbstractClassChild child = new _16_AbstractClassChild();
         //child.method2();
         //child.method3();
 
@@ -40,12 +40,40 @@ public class Program
         // must cast each argument to a byte type for this example to run
         //_13_Exceptions.productValueTooLarge((byte) 50, (byte) 5);
 
-        _14_InputOutput.inputFile();
-        _14_InputOutput.outputFile();
+        //_14_InputOutput.inputFile();
+        //_14_InputOutput.outputFile();
         //_14_InputOutput.inputStringKeyboard();
         //_14_InputOutput.inputNonStringLiteral();
 
         //_15_TestDriven.tests();
+
+        //DOES NOT WORK, AS IT IS NOT SUPPOSED TO WORK
+        //_16_AbstractClass ac = new _16_AbstractClass();
+
+
+        _16_AbstractClass ac = new _16_AbstractClass() {
+            @Override
+            public void method1() {
+                super.method1();
+                System.out.println("Overridden method1() from instance.");
+            }
+        };
+
+
+        //ac.method1();
+
+        //_16_AbstractClassChild acc = new _16_AbstractClassChild();
+
+        //acc.method3();
+
+        //_17_Interfaces_EnglishSpeaker ies = new _17_Interfaces_EnglishSpeaker();
+
+        //ies.sayParting();
+
+        //_17_Interfaces_PortugueseSpeaker ips = new _17_Interfaces_PortugueseSpeaker();
+
+        //ips.sayParting();
+
     }
 
     //DECLARE METHODS
