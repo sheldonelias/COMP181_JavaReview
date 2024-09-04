@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.util.List;
 
 //test message
 
@@ -6,15 +7,36 @@ public class Program
 {
     //DECLARE VARIABLES
 
+    int myInstanceVariableInt = -1;
+
+    int myInstanceVariableInClassInt = 1007;
+
+    String myInstanceVariableString = "hello instance";
+
     public String name;
 
     private String privateName;
+
+    //STATIC VARIABLE DECLARATION AND INITIALIZATION
+    static String myStaticVariableString = "hello static";
+
 
 
     //MAIN DIVIDES VARIABLES FROM METHODS
     public static void main(String[] args) throws Exception {
 
-        //_1_Instantiation inst = new _1_Instantiation();
+
+        Program p = new Program();
+
+        //System.out.println(p.myInstanceVariableString);
+
+
+        //Getting access to instance variable values in a static context
+        _1_Instantiation inst = new _1_Instantiation();
+        System.out.println(inst.instanceVar);
+
+        //Getting access to static values in static context
+        System.out.println(   _1_Instantiation.staticVar    );
 
         //_2_StaticInstanceMembers sim = new _2_StaticInstanceMembers();
         //System.out.println("myStaticString: " + _2_StaticInstanceMembers.myStaticString);
@@ -50,7 +72,7 @@ public class Program
         //DOES NOT WORK, AS IT IS NOT SUPPOSED TO WORK
         //_16_AbstractClass ac = new _16_AbstractClass();
 
-
+        /*
         _16_AbstractClass ac = new _16_AbstractClass() {
             @Override
             public void method1() {
@@ -58,6 +80,7 @@ public class Program
                 System.out.println("Overridden method1() from instance.");
             }
         };
+        */
 
 
         //ac.method1();
@@ -73,6 +96,7 @@ public class Program
         //_17_Interfaces_PortugueseSpeaker ips = new _17_Interfaces_PortugueseSpeaker();
 
         //ips.sayParting();
+
 
     }
 
