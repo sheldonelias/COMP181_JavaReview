@@ -11,10 +11,15 @@ public class _4_Arrays
     //is to use a plural word.
     //Provide the number of elements.
     //Declaring without assignment to element indices puts null value inside
+
+    //Declaring an array without knowing how many elements, nor knowing their values
+    String[] flowers;
+    //Declaring an array knowing how many elements (4), but not know their values
     String[] names = new String[4];
 
     //DECLARATION AND INITIALIZATION OF ALL ELEMENTS AT SAME TIME
     //This assignment procedure can occur at the class level
+    //Declaring knowing how many elements and their values.
     static String[] moreNames = {"Sam", "Ryann", "Swift", "Geri"};
 
     //CONSTRUCTOR
