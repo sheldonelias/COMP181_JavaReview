@@ -27,17 +27,17 @@ public class Program
     {
 
 
-        Program p = new Program();
+        //Program p = new Program();
 
         //System.out.println(p.myInstanceVariableString);
 
 
         //Getting access to instance variable values in a static context
-        _1_Instantiation inst = new _1_Instantiation();
-        System.out.println(inst.instanceVar);
+        //_1_Instantiation inst = new _1_Instantiation();
+        //System.out.println(inst.instanceVar);
 
         //Getting access to static values in static context
-        System.out.println(   _1_Instantiation.staticVar    );
+        //System.out.println(   _1_Instantiation.staticVar    );
 
         //_2_StaticInstanceMembers sim = new _2_StaticInstanceMembers();
         //System.out.println("myStaticString: " + _2_StaticInstanceMembers.myStaticString);
@@ -45,7 +45,9 @@ public class Program
 
         //_3_Precedence precedence = new _3_Precedence();
 
-        //_4_Arrays arrays  = new _4_Arrays();
+        _4_Arrays arrays  = new _4_Arrays();
+
+        //_4a_Selection sel = new _4a_Selection();
 
         //_5_Switch switch = new _5_Switch();
 

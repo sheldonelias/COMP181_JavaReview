@@ -40,6 +40,10 @@ public class _4_Arrays
         names[2] = "Kohana";
         names[3] = "William";
 
+
+        flowers = new String[7];
+        flowers[4] = "chrysanthemum";
+
         moreNames[2] = "Leonard";
 
         System.out.println(moreNames[2]);
