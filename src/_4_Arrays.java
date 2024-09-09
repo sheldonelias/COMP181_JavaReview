@@ -60,7 +60,7 @@ public class _4_Arrays
     {
         //foreach AKA enhanced loop
 
-        for(String str  :    strArr )
+        for(String str : strArr )
         {
             System.out.println(str);
 
