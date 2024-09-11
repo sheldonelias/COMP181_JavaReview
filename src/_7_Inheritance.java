@@ -20,11 +20,11 @@ public class _7_Inheritance
 
         //System.out.println(r1.color + ",  " + r1.avgWeight + ",  " + r1.isFromVine + ", " + r1.isDried);
 
-        //Upcasting from Derived class on RHS, and Base class on LHS
+        //Upcasting from Derived class on RHS, and Base class on LHS, does not require casting operation (<Class>)
         g1 = r1;
 
 
-        //Downcasting  Base class on RHS and Dervived class on LHS, needs the (parens)
+        //Downcasting  Base class on RHS and Dervived class on LHS, needs the casting operator (<Class>>)
         Raisin r2 = new Raisin(); //g1 is Grape and is a parent of Raisin
 
         r2 = (Raisin) g1;
