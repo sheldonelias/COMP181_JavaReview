@@ -45,13 +45,13 @@ public class Program
 
         //_3_Precedence precedence = new _3_Precedence();
 
-        _4_Arrays arrays  = new _4_Arrays();
+        //_4_Arrays arrays  = new _4_Arrays();
 
         //_4a_Selection sel = new _4a_Selection();
 
         //_5_Switch switch = new _5_Switch();
 
-        //_7_Inheritance inheritance = new _7_Inheritance();
+        _7_Inheritance inheritance = new _7_Inheritance();
 
         //_8_ImplementsChild_Human human = new _8_ImplementsChild_Human();
 

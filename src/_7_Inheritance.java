@@ -31,7 +31,7 @@ public class _7_Inheritance
 
         r2.isDried = true;
 
-        System.out.println(r2);
+        System.out.println(r2); //Print will reveal the data type and an address in the heap in hexidecimal form.
 
 
         //Fruit f = new Fruit(); Creates an error Abstract classes not instantiable
