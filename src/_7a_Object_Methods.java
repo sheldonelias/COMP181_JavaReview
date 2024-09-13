@@ -110,7 +110,8 @@ public class _7a_Object_Methods
 
         //Use the poem knowing that each array line has an index from 0 to 7. And each line
         //consists of a string with characters (including white space and punctuation) with
-        //indices from 0 to the last character count up.
+        //indices from 0 to the last character count up. Do not concatenate in any characters.
+        //Use only array and string methods on the poemArr[] object.
 
         //String poemArr[] =
         //            {
