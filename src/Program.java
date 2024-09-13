@@ -27,6 +27,8 @@ public class Program
     {
 
 
+
+
         //Program p = new Program();
 
         //System.out.println(p.myInstanceVariableString);
@@ -51,7 +53,9 @@ public class Program
 
         //_5_Switch switch = new _5_Switch();
 
-        _7_Inheritance inheritance = new _7_Inheritance();
+        //_7_Inheritance inheritance = new _7_Inheritance();
+
+        _7a_Object_Methods om = new _7a_Object_Methods();
 
         //_8_ImplementsChild_Human human = new _8_ImplementsChild_Human();
 
