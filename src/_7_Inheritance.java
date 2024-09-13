@@ -43,6 +43,7 @@ public class _7_Inheritance
         System.out.println("The consumer of a banana will have "+ banana.avgCalories + " calories to burn.");
         System.out.println("It is  "+ banana.isFromTree + " that they are grown from a tree.");*/
 
+
     }
 }
 
