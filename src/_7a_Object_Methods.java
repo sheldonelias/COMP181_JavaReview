@@ -30,7 +30,18 @@ public class _7a_Object_Methods
     String a = new String("hi");
     String b = new String("hi");
 
-
+    //Poem fragment from Langston Hughes. The poem is called "I dream a world"
+    String poemArr[] =
+            {
+                    "I dream a world where man",
+                    "No other man will scorn,",
+                    "Where love will bless the earth",
+                    "And peace its paths adorn",
+                    "I dream a world where all",
+                    "Will know sweet freedom's way,",
+                    "Where greed no longer saps the soul",
+                    "Nor avarice blights our day."
+            };
 
     _7a_Object_Methods()
     {
@@ -94,6 +105,24 @@ public class _7a_Object_Methods
         //Original remains intact.
         System.out.println(title);
 
+        //Can you take poemArr[] initialized above, and use the array and string methods
+        //to create this new sentence? "A world I know will dream sweet sap."
+
+        //Use the poem knowing that each array line has an index from 0 to 7. And each line
+        //consists of a string with characters (including white space and punctuation) with
+        //indices from 0 to the last character count up.
+
+        //String poemArr[] =
+        //            {
+        //                    "I dream a world where man",
+        //                    "No other man will scorn,",
+        //                    "Where love will bless the earth",
+        //                    "And peace its paths adorn",
+        //                    "I dream a world where all",
+        //                    "Will know sweet freedom's way,",
+        //                    "Where greed no longer saps the soul",
+        //                    "Nor avarice blights our day."
+        //            };
 
     }
 
