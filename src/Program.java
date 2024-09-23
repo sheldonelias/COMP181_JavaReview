@@ -25,10 +25,6 @@ public class Program
     //MAIN DIVIDES VARIABLES FROM METHODS
     public static void main(String[] args) throws Exception
     {
-
-
-
-
         //Program p = new Program();
 
         //System.out.println(p.myInstanceVariableString);

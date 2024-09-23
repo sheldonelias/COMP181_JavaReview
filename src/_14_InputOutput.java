@@ -92,6 +92,7 @@ public class _14_InputOutput
         }
     }
 
+
     public static void inputFile() throws IOException
     {
         //counts lines of input file to load array later
