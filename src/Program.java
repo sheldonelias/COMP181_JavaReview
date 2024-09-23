@@ -55,7 +55,7 @@ public class Program
 
         //_7_Inheritance inheritance = new _7_Inheritance();
 
-        _7a_Object_Methods om = new _7a_Object_Methods();
+        //_7a_Object_Methods om = new _7a_Object_Methods();
 
         //_8_ImplementsChild_Human human = new _8_ImplementsChild_Human();
 
@@ -72,7 +72,7 @@ public class Program
         //_14_InputOutput.inputFile();
         //_14_InputOutput.outputFile();
         //_14_InputOutput.inputStringKeyboard();
-        //_14_InputOutput.inputNonStringLiteral();
+        _14_InputOutput.inputNonStringLiteral();
 
         //_15_TestDriven.tests();
 

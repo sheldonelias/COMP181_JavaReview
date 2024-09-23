@@ -65,9 +65,13 @@ public class _14_InputOutput
 
         //saves next int
         Integer usrIntInput;
+        Integer loopCount;
+
+        //Gets from user how many numbers to enter
+        System.out.print("Enter how many numbers would you like to enter: ");
 
         //sets how many loops to get numbers
-        int loopCount = 3;
+        loopCount = scnr.nextInt();
 
         //save words and lines to array
         Integer[] intArr = new Integer[loopCount];
