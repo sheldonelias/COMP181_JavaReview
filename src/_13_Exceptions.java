@@ -16,10 +16,10 @@ public class _13_Exceptions
         int index = scnr.nextInt();
         String[] names = { "Ryley", "Edan", "Reagan", "Henry", "Caius", "Jane", "Guto", "Sonya", "Tyrese", "Johnny" };
 
-        //Compiler in run time tries this part first
+        //Compiler in run time tries this part first. Put possible error causing code here
         try
         {
-            System.out.println(", Name: " + names[index]);
+            System.out.println(" Name: " + names[index]);
             System.out.print("Entry was valid at index: " + index);
         }
         //This code that runs if there is an error. This part runs instead of the program crashing.

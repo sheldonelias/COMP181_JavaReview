@@ -6,25 +6,29 @@ public class _8_ImplementsChild_Human implements _8_ImplementsInterface
 
     public _8_ImplementsChild_Human()
     {
-        myInterfaceMethod1_idle();;
-        myInterfaceMethod2_walk();
-        myInterfaceMethod3_run();
+        //myInterfaceMethod1_idle();;
+        //myInterfaceMethod2_walk();
+        //myInterfaceMethod3_run();
     }
 
+    @Override
     public void myInterfaceMethod1_idle()
     {
         System.out.println("In my unique way, I am an IDLING HUMAN.");
     }
 
+    @Override
     public void myInterfaceMethod2_walk()
     {
         System.out.println("In my unique way, I am a WALKING HUMAN.");
     }
 
+    @Override
     public void myInterfaceMethod3_run()
     {
         System.out.println("In my unique way, I am a RUNNING HUMAN.");
     }
+
 
 
 

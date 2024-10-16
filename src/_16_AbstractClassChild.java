@@ -6,6 +6,8 @@ public class _16_AbstractClassChild extends _16_AbstractClass
 
         System.out.println("_16_AbstractClassChild has been instantiated.");
 
+        //method2();
+
     }
 
     //overridden method from parent class
