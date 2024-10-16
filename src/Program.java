@@ -68,7 +68,7 @@ public class Program
         //_14_InputOutput.inputFile();
         //_14_InputOutput.outputFile();
         //_14_InputOutput.inputStringKeyboard();
-        _14_InputOutput.inputNonStringLiteral();
+        //_14_InputOutput.inputNonStringLiteral();
 
         //_15_TestDriven.tests();
 
@@ -99,6 +99,10 @@ public class Program
         //_17_Interfaces_PortugueseSpeaker ips = new _17_Interfaces_PortugueseSpeaker();
 
         //ips.sayParting();
+
+        _11A_ArrayLists_Generics alg = new _11A_ArrayLists_Generics();
+
+
 
 
     }

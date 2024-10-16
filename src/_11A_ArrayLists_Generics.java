@@ -15,6 +15,7 @@ public class _11A_ArrayLists_Generics
 
     public _11A_ArrayLists_Generics()
     {
+        /*
         // USING COLLECTIONS STATIC METHODS TO SORT
 
         //TODO: Manually initialize cityNames with three city names.
@@ -51,6 +52,8 @@ public class _11A_ArrayLists_Generics
 
         printAllMembersArrayList(cityNames);
 
+         */
+
 
         //CONVERTING ARRAYS TO LISTS AND ARRAY LISTS
 
@@ -59,13 +62,16 @@ public class _11A_ArrayLists_Generics
         System.out.println(strList1);
 
         // strList2 == strList1. We cast the array list value to a List type
-        List strList2 = (List<String>) Arrays.asList(strArr);
+        List<String> strList2 = (List<String>) Arrays.asList(strArr);
 
         //We provide the ArrayList constructor a String list, which then converts the returned object
         //to an Array List
         ArrayList<String> stringArrayList = new ArrayList<String>(strList2);
 
+        printAllMembersArrayList(stringArrayList);
+        
 /*
+
 
         //TODO: Fill Integer ArrayList<Integer> numList
         for(int i=0; i < 5; i++)
@@ -140,7 +146,7 @@ public class _11A_ArrayLists_Generics
     public void printAllMembersArrayList(ArrayList<String> al)
     {
         //TODO enhanced for-loop
-        for(String city: cityNames)
+        for(String city: al)
         {
             System.out.println(city);
         }
