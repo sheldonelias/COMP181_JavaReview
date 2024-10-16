@@ -1,4 +1,7 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class _11A_ArrayLists_Generics
 {
@@ -8,8 +11,12 @@ public class _11A_ArrayLists_Generics
 
     static ArrayList<Integer> integerArrayList = new ArrayList<>(5);
 
+    static String[] strArr = {"First", "Second", "Third"};
+
     public _11A_ArrayLists_Generics()
     {
+        // USING COLLECTIONS STATIC METHODS TO SORT
+
         //TODO: Manually initialize cityNames with three city names.
 
         cityNames.add("Anchorage");
@@ -30,12 +37,35 @@ public class _11A_ArrayLists_Generics
 
         cityNames.add(2,"Las Cruces");
 
-
         //TODO: Remove a city name in the new position 3
         cityNames.remove(2);
         findAndRemoveByValue("Buenos Aires");
 
-        //printAllMembersArrayList(cityNames);
+        printAllMembersArrayList(cityNames);
+
+        sortArrayListForward(cityNames);
+
+        printAllMembersArrayList(cityNames);
+
+        sortArrayListBackward(cityNames);
+
+        printAllMembersArrayList(cityNames);
+
+
+        //CONVERTING ARRAYS TO LISTS AND ARRAY LISTS
+
+        List strList1 = convertArrayToList(strArr);
+
+        System.out.println(strList1);
+
+        // strList2 == strList1. We cast the array list value to a List type
+        List strList2 = (List<String>) Arrays.asList(strArr);
+
+        //We provide the ArrayList constructor a String list, which then converts the returned object
+        //to an Array List
+        ArrayList<String> stringArrayList = new ArrayList<String>(strList2);
+
+/*
 
         //TODO: Fill Integer ArrayList<Integer> numList
         for(int i=0; i < 5; i++)
@@ -56,6 +86,8 @@ public class _11A_ArrayLists_Generics
         {
             System.out.println(i);
         }
+
+ */
 
 
     }
@@ -118,5 +150,31 @@ public class _11A_ArrayLists_Generics
     //TODO: Make a method that searches for a city name in the static cityNames ArrayList
 
 
+    public void sortArrayListForward(ArrayList<String> al)
+    {
+        System.out.println("-- forward sort --");
+        Collections.sort(al);
+    }
+
+    public void sortArrayListBackward(ArrayList<String> al)
+    {
+        System.out.println("-- backward sort --");
+        Collections.reverse(al);
+    }
+
+
+    public List convertArrayToList(String[] strArr)
+    {
+        List<String> strList = Arrays.asList(strArr);
+
+        return strList;
+    }
+
+    public List convertArrayToArrayList(String[] strArr)
+    {
+        List<String> strList = Arrays.asList(strArr);
+
+        return strList;
+    }
 
 }
